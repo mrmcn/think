@@ -1,0 +1,12 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "prettier/prettier": 2
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
